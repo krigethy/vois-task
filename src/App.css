@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+}
+
+.main {
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 1)
+    ),
+    url("./assets/bg.png");
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  position: sticky;
+  top: 0px;
+  z-index: 9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  height: 70px;
+  padding: 0px 20px;
+}
+
+.hallo-world {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.margin-5 {
+  margin: 5px;
+}
+
+.heavy-font {
+  font-weight: bold;
+}
+
+.data-font {
+  color: gray;
+  font-weight: lighter;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  color: white;
+  background: rgb(221, 0, 6);
+  border: none;
+  border-radius: 5px;
+  font-size: 0.6rem;
+  cursor: pointer;
+  width: 100%;
+  padding: 12px;
+}
